@@ -13,6 +13,8 @@ import Preloader from "./components/Pre";
 import ScrollToTop from "./components/ScrollToTop";
 import "./index.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+
+import Home from "./components/Home/Home";
 function App() {
   const [load, setLoad] = useState(true);
   useEffect(() => {
@@ -31,6 +33,9 @@ function App() {
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         <Header />
         <ScrollToTop />
+        <Routes>
+          <Route path="/" exact element={<Home />} />
+        </Routes>
         <Footer />
       </div>
     </Router>
