@@ -53,7 +53,7 @@ const Header = () => {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto" defaultActiveKey="#home">
             <Nav.Item>
-              <Nav.Link to="/" onClick={() => setExpand(false)}>
+              <Nav.Link as={Link} to="/" onClick={() => setExpand(false)}>
                 <AiOutlineHome style={{ marginBottom: "2px" }} />
                 HOME
               </Nav.Link>
@@ -65,8 +65,8 @@ const Header = () => {
             </Nav.Item>
             <Nav.Item>
               <Nav.Link
-                // as={Link}
-                to="/project"
+                as={Link}
+                to="/projects"
                 onClick={() => setExpand(false)}
               >
                 <AiOutlineFundProjectionScreen

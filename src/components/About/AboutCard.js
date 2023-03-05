@@ -15,7 +15,7 @@ const AboutCard = () => {
           i am pursuing B.Tech from "AKGEC" in "Computer science"
         </p>
         <p style={{ fontSize: 28 }}>
-          apart from coding , some othet activities that i love to do are
+          apart from coding 👩‍💻 , some other activities that i love to do are
         </p>
         <ul style={{ listStyleType: "none" }}>
           <li>
