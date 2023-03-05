@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import Type from "./Type";
 import "./home.css";
+import Home2 from "./Home2";
 const Home = () => {
   return (
     <div>
@@ -28,6 +29,7 @@ const Home = () => {
             </Row>
           </Container>
         </Container>
+        <Home2 />
       </section>
     </div>
   );
