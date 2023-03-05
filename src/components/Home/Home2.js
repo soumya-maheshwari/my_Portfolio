@@ -18,11 +18,11 @@ const Home2 = () => {
               learn new technologies.
             </h1>
           </Col>
-          <Col md={4} className="myavtar">
+          {/* <Col md={4} className="myavtar">
             <Tilt>
               <img src={myImg} alt="soumya" />
             </Tilt>
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>

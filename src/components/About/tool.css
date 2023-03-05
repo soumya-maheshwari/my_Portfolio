@@ -1,0 +1,25 @@
+.tech-icons {
+  font-size: 80px !important;
+  margin: 15px !important;
+  padding: 20px !important;
+  opacity: 1.93 !important;
+  border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
+  /* vertical-align: middle !important; */
+  text-align: center !important;
+  border-radius: 35px !important;
+  /* display: table !important; */
+  box-shadow: 4px 5px 4px 6px rgba(89, 4, 168, 0.137) !important;
+  /* overflow: hidden !important; */
+  transition: all 0.4s ease 0s !important;
+}
+
+.tech-icons:hover {
+  /* transform: scale(1.05) !important; */
+  /* overflow: hidden !important; */
+  border: 3.2px solid rgba(197, 115, 230, 0.883) !important;
+}
+@media (max-width: 767px) {
+  .tech-icons {
+    margin: 10px !important;
+  }
+}

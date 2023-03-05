@@ -1,0 +1,22 @@
+.about-section {
+  position: relative;
+  padding-top: 180px;
+  padding-bottom: 30px;
+  background-image: var(--section-background-color) !important;
+  color: white;
+  text-align: center;
+}
+
+.skillset-heading {
+  justify-content: center;
+  text-align: center;
+  font-size: 70px;
+  margin-bottom: 30px;
+}
+
+.tools-heading {
+  justify-content: center;
+  text-align: center;
+  font-size: 70px;
+  margin-bottom: 30px;
+}

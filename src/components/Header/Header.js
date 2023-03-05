@@ -5,7 +5,7 @@ import Nav from "react-bootstrap/Nav";
 import Button from "react-bootstrap/Button";
 import { CgGitFork } from "react-icons/cg";
 import logo from "../../assets/mylogo.png";
-
+import { Link } from "react-router-dom";
 import {
   AiFillStar,
   AiOutlineHome,
@@ -59,7 +59,7 @@ const Header = () => {
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link to="/about" onClick={() => setExpand(false)}>
+              <Nav.Link as={Link} to="/about" onClick={() => setExpand(false)}>
                 <AiOutlineUser style={{ marginBottom: "2px" }} /> ABOUT
               </Nav.Link>
             </Nav.Item>
