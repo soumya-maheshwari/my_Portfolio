@@ -16,7 +16,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Projects from "./components/Projects/Projects";
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
-
+import Contact from "./components/Contact/Contact";
 function App() {
   const [load, setLoad] = useState(true);
 
@@ -31,20 +31,23 @@ function App() {
   }, []);
 
   return (
-    <Router>
-      <Preloader load={load} />
-      <div className="App" id={load ? "no-scroll" : "scroll"}>
-        <Header />
-        <ScrollToTop />
-        <Routes>
-          <Route path="/" exact element={<Home />} />
+    <>
+      <Router>
+        <Preloader load={load} />
+        <div className="App" id={load ? "no-scroll" : "scroll"}>
+          <Header />
+          <ScrollToTop />
+          <Routes>
+            <Route path="/" exact element={<Home />} />
 
-          <Route path="/about" exact element={<About />} />
-          <Route path="/projects" exact element={<Projects />} />
-        </Routes>
-        {/* <Footer /> */}
-      </div>
-    </Router>
+            <Route path="/about" exact element={<About />} />
+            <Route path="/projects" exact element={<Projects />} />
+            <Route path="/contact" exact element={<Contact />} />
+          </Routes>
+        </div>
+      </Router>
+      {/* <Footer /> */}
+    </>
   );
 }
 

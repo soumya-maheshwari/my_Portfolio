@@ -11,6 +11,7 @@ import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
+  AiOutlineContacts,
 } from "react-icons/ai";
 
 import "./header.css";
@@ -73,6 +74,15 @@ const Header = () => {
                   style={{ marginBottom: "2px" }}
                 />{" "}
                 PROJECTS
+              </Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/contact"
+                onClick={() => setExpand(false)}
+              >
+                <AiOutlineContacts style={{ marginBottom: "2px" }} /> CONTACT
               </Nav.Link>
             </Nav.Item>
             <Nav.Item className="fork-btn">
