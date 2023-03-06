@@ -10,12 +10,14 @@ const Home2 = () => {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 className="intro">
-              a second year engineering student pursuing Btech in "Computer
-              Science" from "Ajay Kumar Garg Engineering College. I am an
-              Aspiring Software Developer and a Competitive Programmer. I have
-              worked on HTML , CSS , JavaScript, ReactJS and has also made
-              projects with them . I am passionate towards my work and keen to
-              learn new technologies.
+              a <span> second year</span> engineering student pursuing{" "}
+              <span>BTech </span> in <span>Computer Science</span> from{" "}
+              <span className="clg"> Ajay Kumar Garg Engineering College </span>
+              . I am an <span> Aspiring Software Developer </span>and a
+              <span> Competitive Programmer </span>. I have worked on{" "}
+              <span className="lang"> HTML , CSS , JavaScript, ReactJS</span>{" "}
+              and has also made projects with them . I am passionate towards my
+              work and keen to learn new technologies.
             </h1>
           </Col>
           {/* <Col md={4} className="myavtar">

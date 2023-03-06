@@ -63,6 +63,9 @@
   opacity: 0.9 !important;
 }
 
+/* .items {
+  font-size: 30px;
+} */
 @media (max-width: 767px) {
   .navbar {
     padding: 1rem 2rem !important;
@@ -78,8 +81,9 @@
 }
 
 .logo {
+  margin-left: 0px;
   height: 3.4em !important;
-  width: 9.5em !important;
+  width: 10.5em !important;
 }
 
 .navbar-nav .nav-link {
@@ -126,4 +130,26 @@
 
 .navbar-nav .nav-item a:hover::after {
   width: 100%;
+}
+
+.fork-btn {
+  font-size: 2.1em !important;
+  padding-top: 20px !important;
+}
+
+.fork-btn-inner {
+  line-height: 1.4em !important;
+  background-color: #934cce5e !important;
+  padding: 0.25rem 1.1rem !important;
+  vertical-align: middle !important;
+  text-align: center !important;
+}
+
+.fork-btn-inner:hover {
+  transform: translateY(-2px) !important;
+  background-color: #a24dd386 !important;
+  border-color: #a24dd386 !important;
+}
+.fork-btn-inner::after {
+  display: none !important;
 }

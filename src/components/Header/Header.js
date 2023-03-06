@@ -56,12 +56,13 @@ const Header = () => {
             <Nav.Item>
               <Nav.Link as={Link} to="/" onClick={() => setExpand(false)}>
                 <AiOutlineHome style={{ marginBottom: "2px" }} />
-                HOME
+                <h1 className="items">HOME</h1>
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
               <Nav.Link as={Link} to="/about" onClick={() => setExpand(false)}>
-                <AiOutlineUser style={{ marginBottom: "2px" }} /> ABOUT
+                <AiOutlineUser style={{ marginBottom: "2px" }} />
+                <h1 className="items">ABOUT</h1>
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
@@ -73,7 +74,7 @@ const Header = () => {
                 <AiOutlineFundProjectionScreen
                   style={{ marginBottom: "2px" }}
                 />{" "}
-                PROJECTS
+                <h1 className="items"> PROJECTS</h1>
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
@@ -82,7 +83,8 @@ const Header = () => {
                 to="/contact"
                 onClick={() => setExpand(false)}
               >
-                <AiOutlineContacts style={{ marginBottom: "2px" }} /> CONTACT
+                <AiOutlineContacts style={{ marginBottom: "2px" }} />
+                <h1 className="items">CONTACT</h1>
               </Nav.Link>
             </Nav.Item>
             <Nav.Item className="fork-btn">

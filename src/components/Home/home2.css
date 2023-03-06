@@ -1,8 +1,19 @@
 .intro {
-  color: whitesmoke;
-  font-size: 22px;
+  color: white;
+  font-size: 50px;
 }
 
+span {
+  color: #b562d6;
+}
+
+.clg {
+  font-size: 69px;
+}
+.lang {
+  font-style: italic;
+  color: aqua;
+}
 .myavtar {
   justify-content: center !important;
   padding-top: 90px !important;

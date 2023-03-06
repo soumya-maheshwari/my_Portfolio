@@ -33,7 +33,7 @@
 }
 
 .home-header {
-  padding-top: 80px !important;
+  padding-top: 100px;
 }
 .home-section {
   position: relative;
@@ -41,48 +41,48 @@
   /* background-color: red; */
   background-position: top center;
   background-repeat: no-repeat;
-  padding-bottom: 30px !important;
-  padding-top: 30px !important;
+  padding-bottom: 30px;
+  padding-top: 30px;
 }
 .home-content {
-  padding: 9rem 0 2rem !important;
+  padding: 9rem 0 2rem;
   color: whitesmoke;
   text-align: left;
 }
-.heading {
-  font-size: 2.4em !important;
-  padding-left: 50px !important;
-}
+/* .heading {
+  font-size: 2.4em ;
+  padding-left: 50px ;
+} */
 
 .heading-name {
-  font-size: 2.5em !important;
-  padding-left: 45px !important;
+  font-size: 6.5em;
+  padding-left: 45px;
 }
 
 .main-name {
   color: #cd5ff8;
 }
 .Typewriter__wrapper {
-  font-size: 2.2em !important;
-  color: #be6adf !important;
-  font-weight: 600 !important;
+  font-size: 4.2em;
+  color: #be6adf;
+  font-weight: 600;
 }
 .Typewriter__cursor {
-  font-size: 2.4em !important;
-  color: #b562d6 !important;
+  font-size: 3.4em;
+  color: #b562d6;
 }
 
 @media (max-width: 767px) {
   .Typewriter__wrapper {
-    font-size: 1.4em !important;
-    font-weight: 500 !important;
-    position: absolute !important;
+    font-size: 1.4em;
+    font-weight: 500;
+    position: absolute;
   }
   .Typewriter__cursor {
-    display: none !important;
+    display: none;
   }
 }
 .myAvtar {
-  justify-content: center !important;
-  padding-top: 9em !important;
+  justify-content: center;
+  padding-top: 9em;
 }

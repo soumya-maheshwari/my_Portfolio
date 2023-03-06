@@ -33,9 +33,10 @@ function App() {
   return (
     <>
       <Router>
-        <Preloader load={load} />
+        {/* <Preloader load={load} /> */}
         <div className="App" id={load ? "no-scroll" : "scroll"}>
           <Header />
+
           <ScrollToTop />
           <Routes>
             <Route path="/" exact element={<Home />} />
@@ -44,8 +45,11 @@ function App() {
             <Route path="/projects" exact element={<Projects />} />
             <Route path="/contact" exact element={<Contact />} />
           </Routes>
+
+          <Footer />
         </div>
       </Router>
+      {/* <Contact /> */}
       {/* <Footer /> */}
     </>
   );
