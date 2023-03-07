@@ -44,7 +44,7 @@ const Home = () => {
           </Container>
         </Container>
         <Home2 />
-        {/* <Contact /> */}
+        <Contact />
       </section>
     </div>
   );

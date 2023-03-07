@@ -12,7 +12,7 @@ const ProjectCard = (props) => {
         <Card.Img variant="top" src={props.imgPath} alt="img"></Card.Img>
 
         <Card.Body>
-          <Card.Title>{props.title}</Card.Title>
+          <Card.Title className="title">{props.title}</Card.Title>
 
           <Card.Text style={{ text: "justify" }}>{props.description}</Card.Text>
           <Button

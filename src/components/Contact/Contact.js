@@ -37,6 +37,7 @@ const Contact = () => {
             required
             type="text"
             name="last_name"
+            className="lastName"
             placeholder="last name"
             value={toSend.last_name}
             onChange={handleChange}
@@ -45,6 +46,7 @@ const Contact = () => {
             required
             type="text"
             name="message"
+            className="message"
             placeholder="message"
             value={toSend.message}
             onChange={handleChange}
@@ -53,6 +55,7 @@ const Contact = () => {
             required
             type="text"
             name="reply_to"
+            className="reply"
             placeholder="your email"
             value={toSend.reply_to}
             onChange={handleChange}

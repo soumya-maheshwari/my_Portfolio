@@ -1,17 +1,47 @@
 .project-section {
   position: relative;
   padding-top: 150px;
-  padding-bottom: 30px;
+  /* padding-bottom: 30px; */
   background-image: var(--section-background-color) !important;
   color: white;
   text-align: center;
 }
 
 .project-card {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 60px;
+
   padding-left: 30px;
-  height: 1000px;
+  height: auto;
   width: 1000px;
+
   padding-right: 30px;
+}
+
+.card {
+  font-size: 40px;
+}
+
+@media (max-width: 767px) {
+  .project-section {
+    /* padding-bottom: 2em !important; */
+    position: relative;
+    text-align: center;
+  }
+  .project-card {
+    position: relative;
+    /* padding-top: 10px; */
+    padding-bottom: 10px;
+
+    margin-right: 90px;
+    /* height: 100px; */
+    width: 300px;
+
+    text-align: center;
+  }
+  .card {
+    font-size: 18px;
+    padding-bottom: 10px;
+    overflow: hidden;
+    text-align: center;
+  }
 }

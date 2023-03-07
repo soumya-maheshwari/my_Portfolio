@@ -13,3 +13,20 @@
   box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
   /* color: red; */
 }
+
+.title {
+  color: plum;
+  font-size: 28px;
+}
+
+@media (max-width: 767px) {
+  .project-card-view {
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    width: 350px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+}

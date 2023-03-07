@@ -47,10 +47,9 @@ function App() {
             <Route path="/contact" exact element={<Contact />} />
           </Routes>
         </div>
+
         <Footer />
       </Router>
-      {/* <Contact /> */}
-      {/* <Footer /> */}
     </>
   );
 }

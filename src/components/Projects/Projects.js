@@ -14,6 +14,7 @@ const Projects = () => {
         <Row style={{ paddingBottom: "10px", justifyContent: "center" }}>
           <Col md={3} className="project-card">
             <ProjectCard
+              className="card"
               imgPath={notes}
               title=" Notes App"
               description=" 
@@ -24,6 +25,7 @@ const Projects = () => {
           </Col>
           <Col md={3} className="project-card">
             <ProjectCard
+              className="card"
               imgPath={Register}
               title="LOGIN AND REGISTRATION SYSTEM"
               description="
@@ -37,6 +39,7 @@ const Projects = () => {
           </Col>
           <Col md={3} className="project-card">
             <ProjectCard
+              className="card"
               imgPath={emoji}
               title="Emoji"
               description="This is a simple app built with React .Click on the button and get more emojis"
@@ -44,24 +47,26 @@ const Projects = () => {
               demoLink=""
             />
           </Col>
-          <Col md={3} className="project-card">
-            <ProjectCard
+          {/* <Col md={3} className="project-card">
+             <ProjectCard
+              className="card"
               imgPath={imgg}
               title="abcd"
               description=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem praesentium consequuntur labore vitae magnam non similique impedit cum reprehenderit unde provident libero, est laboriosam repudiandae illum blanditiis quam accusantium perferendis.Lorem ipsum dolor sit"
               ghLink="https://github.com/soumya-maheshwari/JSClock"
               demoLink=""
             />
-          </Col>
-          <Col md={3} className="project-card">
+          </Col> */}
+          {/* <Col md={3} className="project-card">
             <ProjectCard
+              className="card"
               imgPath={imgg}
               title="abcd"
               description=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem praesentium consequuntur labore vitae magnam non similique impedit cum reprehenderit unde provident libero, est laboriosam repudiandae illum blanditiis quam accusantium perferendis.Lorem ipsum dolor sit"
               ghLink="https://github.com/soumya-maheshwari/TIC-TAC-TOE"
               demoLink=""
             />
-          </Col>
+          </Col> */}
           {/* <Col md={3}>
             <ProjectCard
               imgPath={imgg}

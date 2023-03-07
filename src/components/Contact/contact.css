@@ -1,7 +1,7 @@
 .contact-section {
   position: relative;
   padding-top: 180px;
-  padding-bottom: 30px;
+  padding-bottom: 300px;
   /* background-image: var(--section-background-color) !important; */
   color: white;
   text-align: center;
@@ -45,4 +45,29 @@ input {
 
 .submit-btn:hover {
   background-color: rgb(111, 47, 111);
+}
+
+@media (max-width: 767px) {
+  .contact-section {
+    padding-bottom: 20em !important;
+  }
+  .form {
+    width: 350px;
+  }
+
+  .submit-btn {
+    width: 100px;
+    height: 50px;
+  }
+  .firstName,
+  .lastName,
+  .message,
+  .reply {
+    height: 30px;
+    width: 100%;
+    font-size: 20px;
+  }
+  /* .message {
+    width: 200px;
+  } */
 }
