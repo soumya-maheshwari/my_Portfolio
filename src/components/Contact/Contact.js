@@ -1,9 +1,7 @@
 import React, { useState } from "react";
 import { send } from "emailjs-com";
 import "./contact.css";
-import service_id from "../../text.js";
-import template_id from "../../text.js";
-import userID from "../../text.js";
+import { service_id, template_id, userId } from "../../text.js";
 
 const Contact = () => {
   const [toSend, setToSend] = useState({
@@ -15,7 +13,8 @@ const Contact = () => {
 
   const onSubmit = (e) => {
     e.preventDefault();
-    send({ service_id }, { template_id }, toSend, { userID })
+
+    send("service_1fmw6sd", "template_s7863yg", toSend, "eEfjGJ9SVdAaDy8HM")
       .then((response) => {
         console.log("success", response.status, response.text);
       })
