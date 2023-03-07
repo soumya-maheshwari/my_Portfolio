@@ -17,6 +17,7 @@ import Projects from "./components/Projects/Projects";
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Contact from "./components/Contact/Contact";
+
 function App() {
   const [load, setLoad] = useState(true);
 
@@ -45,9 +46,8 @@ function App() {
             <Route path="/projects" exact element={<Projects />} />
             <Route path="/contact" exact element={<Contact />} />
           </Routes>
-
-          <Footer />
         </div>
+        <Footer />
       </Router>
       {/* <Contact /> */}
       {/* <Footer /> */}

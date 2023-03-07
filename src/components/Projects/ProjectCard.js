@@ -8,20 +8,23 @@ import "./projectCard.css";
 const ProjectCard = (props) => {
   return (
     <div>
-      <Container fluid>
-        <Card className="project-card">
-          <Card.Img variant="top" src={props.imgPath} alt="img"></Card.Img>
+      <Card className="project-card-view">
+        <Card.Img variant="top" src={props.imgPath} alt="img"></Card.Img>
 
-          <Card.Body>
-            <Card.Title>{props.title}</Card.Title>
+        <Card.Body>
+          <Card.Title>{props.title}</Card.Title>
 
-            <Card.Text>{props.description}</Card.Text>
-            <Button variant="primary" href={props.ghLink}>
-              <BsGithub />
-            </Button>
-          </Card.Body>
-        </Card>
-      </Container>
+          <Card.Text style={{ text: "justify" }}>{props.description}</Card.Text>
+          <Button
+            variant="primary"
+            href={props.ghLink}
+            target="_blank"
+            className="button"
+          >
+            <BsGithub />
+          </Button>
+        </Card.Body>
+      </Card>
     </div>
   );
 };

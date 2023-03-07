@@ -1,8 +1,17 @@
 .project-section {
   position: relative;
-  padding-top: 180px;
+  padding-top: 150px;
   padding-bottom: 30px;
   background-image: var(--section-background-color) !important;
   color: white;
   text-align: center;
+}
+
+.project-card {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 30px;
+  height: 1000px;
+  width: 1000px;
+  padding-right: 30px;
 }

@@ -6,3 +6,9 @@ body {
   background-image: linear-gradient(to left, rgb(27 20 41), rgb(20 15 35));
   background-color: black;
 }
+/* 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */

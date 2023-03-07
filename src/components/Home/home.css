@@ -33,7 +33,7 @@
 }
 
 .home-header {
-  padding-top: 100px;
+  padding-top: 80px;
 }
 .home-section {
   position: relative;
@@ -49,20 +49,21 @@
   color: whitesmoke;
   text-align: left;
 }
-/* .heading {
-  font-size: 2.4em ;
-  padding-left: 50px ;
-} */
+.heading {
+  font-size: 2.4em;
+  padding-left: 50px;
+}
 
 .heading-name {
-  font-size: 6.5em;
+  font-size: 2.5em;
   padding-left: 45px;
 }
 
 .main-name {
   color: #cd5ff8;
+  /* font-size: 50px; */
 }
-.Typewriter__wrapper {
+/* .Typewriter__wrapper {
   font-size: 4.2em;
   color: #be6adf;
   font-weight: 600;
@@ -81,7 +82,7 @@
   .Typewriter__cursor {
     display: none;
   }
-}
+} */
 .myAvtar {
   justify-content: center;
   padding-top: 9em;

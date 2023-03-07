@@ -62,9 +62,9 @@
   transform: rotate(-135deg) !important;
   opacity: 0.9 !important;
 }
-
-/* .items {
-  font-size: 30px;
+/* 
+.items {
+  font-size: 40px;
 } */
 @media (max-width: 767px) {
   .navbar {
@@ -81,9 +81,9 @@
 }
 
 .logo {
-  margin-left: 0px;
-  height: 3.4em !important;
-  width: 10.5em !important;
+  /* margin-left: -10px; */
+  height: 1.4em !important;
+  width: 2.5em !important;
 }
 
 .navbar-nav .nav-link {
@@ -134,13 +134,14 @@
 
 .fork-btn {
   font-size: 2.1em !important;
-  padding-top: 20px !important;
+  padding-top: 10px !important;
+  /* margin-right: -10px; */
 }
 
 .fork-btn-inner {
   line-height: 1.4em !important;
   background-color: #934cce5e !important;
-  padding: 0.25rem 1.1rem !important;
+  padding: 0.15rem 1.1rem !important;
   vertical-align: middle !important;
   text-align: center !important;
 }

@@ -21,12 +21,17 @@ const AboutCard = () => {
           <li>
             <ImPointRight />
             {"     "}
-            SONGS
+            Listening to songs
           </li>
           <li>
             <ImPointRight />
             {"     "}
-            PLAYYING
+            Watching movies
+          </li>
+          <li>
+            <ImPointRight />
+            {"     "}
+            Hanging out with friends
           </li>
         </ul>
       </Card.Body>

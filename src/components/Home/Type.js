@@ -1,10 +1,10 @@
 import React from "react";
-import TypewriterComponent from "typewriter-effect";
-
+import Typewriter from "typewriter-effect";
+import "./type.css";
 const Type = () => {
   return (
     <>
-      <TypewriterComponent
+      <Typewriter
         options={{
           strings: [
             "Developer",
@@ -15,7 +15,7 @@ const Type = () => {
           loop: true,
           deleteSpeed: 40,
         }}
-      ></TypewriterComponent>
+      ></Typewriter>
     </>
   );
 };
